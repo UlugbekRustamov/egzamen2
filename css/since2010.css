@@ -531,7 +531,7 @@ p {
   border-radius: 3px;
   margin-top: 38px;
   display: inline-block;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 
 .section1 .right a:hover {
@@ -550,15 +550,16 @@ p {
 .section-1 {
   background-image: url('../photo/img/kuchula.png'), url('../photo/img/Group\ 61.png');
   background-repeat: no-repeat;
-  -webkit-background-size: contain, contain;
-  -moz-background-size: contain, contain;
-  background-size: contain, contain;
+  -webkit-background-size: contain, ;
+  -moz-background-size: contain, ;
+  background-size: contain, ;
   background-position: left -120px, right 350px;
   
 }
 
 .section2 {
   position: relative;
+
 }
 
 .section2::before {
@@ -630,6 +631,7 @@ p {
   text-align: center;
   color: #949494;
   position: relative;
+  margin-top: 50px;
 }
 
 .section2 h5 {
@@ -889,6 +891,9 @@ p {
   width: 100%;
   margin-top: 200px;
   padding-bottom: 88px;
+}
+
+.section5 {
 }
 
 .section5-left h1 {
@@ -1478,6 +1483,7 @@ input:first-child {
 form {
   width: 375px;
   position: relative;
+  display: f;
 }
 
 
